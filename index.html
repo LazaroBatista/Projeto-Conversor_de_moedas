@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <img src="./assets/logo.gif" alt="gif-dinheiro-na-mao" class="gif">
+
+        <h1>Conversor de Moedas</h1>
+        <form>
+            <label for="Moeda1">Converter <b>de</b>
+                <select class="coin1">
+                    <option value="Real">R$ Real Brasileiro</option>
+                    <option value="Dolar">US$ Dolar estadunidense</option>
+                    <option value="Euro">€ Euro</option>
+                    <option value="Libra">£ Libra Esterlina</option>
+                    <option value="Bitcoin">Bitcoin</option>
+            </select>
+
+            <label for="Moeda2">Converter <b>para</b>
+                <select class="coin2">
+                    <option value="Dolar">US$ Dolar estadunidense</option>
+                    <option value="Real">R$ Real Brasileiro</option>
+                    <option value="Euro">€ Euro</option>
+                    <option value="Libra">£ Libra Esterlina</option>
+                    <option value="Bitcoin">Bitcoin</option>
+            </label>
+            </select>
+            <label for="Valor">Valor
+                <input type="number" name="valor" class="Valor" placeholder="Digite o valor">
+                <button class="convertButton" type="button">Converter</button>
+            </label>
+            <section>
+                <div class="containerResult">
+                    <img src="./assets/Real.png" alt="Logo-moeda-converter" class="logoM1">
+                    <p id="moeda1">Real</p>
+                    <p id="enteredValue"><b>$ 0,00</b></p>
+                </div>
+                <img src="./assets/Seta.png" alt="Seta" class="seta">
+                <div class="containerResult">
+                    <img src="./assets/Dolar.png" alt="Logo-moeda-converter" class="logoM2">
+                    <p id="moeda2">Dólar estadunidense</p>
+                    <p id="convertedResult"><b>$ 0,00</b></p>
+                </div>
+            </section>
+        </form>
+
+</body>
+<script src="./script.js"></script>
+
+</html>

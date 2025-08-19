@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    outline: none;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+.gif {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    width: 500px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select, input {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    margin-bottom: 24px;
+    appearance: none;
+    padding: 14px;
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    background: #772FD3;
+    margin-top: 23px;
+    margin-bottom: 36px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+
+section {
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    align-items: center;
+
+}
+.containerResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.logoM1 {
+    width: 65px;
+    height: 65px;
+
+}
+
+#moeda1 {
+    color: #777;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 0;
+}
+
+#enteredValue, #convertedResult {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.seta {
+    width: 35px;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.logoM2 {
+    width: 65px;
+    height: 65px;
+}
+
+#moeda2 {
+    color: #777;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 0;
+}
+
